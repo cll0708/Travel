@@ -4,7 +4,9 @@
       <router-link to="/"></router-link>
       <router-link to="/list"></router-link>
     </div>
-    <router-view/>
+    <keep-alive>
+      <router-view/>
+    </keep-alive>
   </div>
 </template>
 
