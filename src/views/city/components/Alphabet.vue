@@ -7,7 +7,6 @@
         @touchstart="handleTouchStart"
         @touchmove="handleTouchMove"
         @touchend="handleTouchEnd"
-        @touchMo
         @click="handleClick"
     >{{item}}</li>
   </ul>
