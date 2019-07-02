@@ -4,7 +4,7 @@
       <router-link to="/"></router-link>
       <router-link to="/list"></router-link>
     </div>
-    <keep-alive>
+    <keep-alive exclude="Detail">
       <router-view/>
     </keep-alive>
   </div>
